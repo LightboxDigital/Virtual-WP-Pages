@@ -8,13 +8,13 @@ This will also handle custom post types, and also handle templates using a 'temp
 
 We have done our best to comment this and make it clear so that modifying it to your needs are easier.
 
-#How to install#
+##How to install##
 
 All you need to do is place the 'virtual-wp-pages.php' inside your theme and then include it like:
 ```php
   require_once( get_template_directory() . 'virtual-wp-pages.php' );
 ```
-#How to use#
+##How to use##
 
 Simply use `register_virtual_page( $args );` to utilise this class, it requires an array of arguments passed to it.
 
@@ -31,7 +31,7 @@ register_virtual_page(
 
 See 'Arguments' below.
 
-#Arguments#
+##Arguments##
 
 Only the slug is strictly required, but using only that would make it pointless!
 
@@ -43,7 +43,7 @@ Only the slug is strictly required, but using only that would make it pointless!
 - 'type', this is the post type of the object, this allows you to create virtual anything!
 - 'template', allows you to filter the template that is being loaded by the page/post - eg 'templates/login' would load the following file 'wp-content/themes/mytheme/templates/login.php'.
 
-#To do list#
+##To do list##
 
 Providing we find time to continually improve this code, we have the following list!
 
@@ -53,7 +53,7 @@ Providing we find time to continually improve this code, we have the following l
 - Look into compatibility for Yoast SEO and other SEO plugins to optimise these pages
 - Create a user interface and work it into a plugin, obviously leaving the ability for a 'lite' code only version.
 
-#Feedback#
+##Feedback##
 
 We would love to hear feedback on this, many of these classes are available but we were unable to find on GitHub and felt a lot of developers were potentially missing out on these great snippets.
 
