@@ -1,6 +1,7 @@
 #Virtual-WP-Pages#
 
-##### Table of Contents  
+##### Table of Contents
+- [Description](#description)
 - [How to install](#how-to-install)
 - [How to use](#how-to-use)
 - [Arguments](#arguments)
@@ -8,6 +9,7 @@
 - [Feedback](#feedback)
 
 ==========
+##Description##
 
 This is a simple PHP class for WordPress that will allow you to add false/static/virtual pages to your site.
 
