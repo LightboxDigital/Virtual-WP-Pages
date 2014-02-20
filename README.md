@@ -12,7 +12,7 @@ We have done our best to comment this and make it clear so that modifying it to 
 
 All you need to do is place the 'virtual-wp-pages.php' inside your theme and then include it like:
 ```php
-  require_once( get_template_directory() . 'virtual-wp-pages.php' );
+  require_once( get_template_directory() . '/virtual-wp-pages.php' );
 ```
 ##How to use##
 
