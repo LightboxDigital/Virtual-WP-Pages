@@ -6,6 +6,7 @@
 - [Arguments](#arguments)
 - [To do list](#to-do-list)
 - [Feedback](#feedback)
+
 ==========
 
 This is a simple PHP class for WordPress that will allow you to add false/static/virtual pages to your site.
