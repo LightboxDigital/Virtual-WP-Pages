@@ -11,12 +11,24 @@ We have done our best to comment this and make it clear so that modifying it to 
 #How to install#
 
 All you need to do is place the 'virtual-wp-pages.php' inside your theme and then include it like:
-
+`
   require_once( get_template_directory() . 'virtual-wp-pages.php' );
-  
+`
 #How to use#
 
 Simply use `register_virtual_page( $args );` to utilise this class, it requires an array of arguments passed to it.
+
+Example for creating a static/faux login page:
+
+`
+register_virtual_page(
+	array(
+		'slug'		=>	'login',
+		'title'		=>	'Login to your Account',
+		'template'	=>	'templates/login'
+	));
+`
+
 See 'Arguments' below.
 
 #Arguments#
