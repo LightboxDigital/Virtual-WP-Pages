@@ -2,7 +2,7 @@
 
 This is a simple PHP class for WordPress that will allow you to add false/static/virtual pages to your site.
 
-This is sespecially useful for login pages, carts etc - which require no administration from a back end perspective but are aso required to permanently exist.
+This is especially useful for login pages, carts etc - which require no administration from a back end perspective but are aso required to permanently exist.
 
 This will also handle custom post types, and also handle templates using a 'template' argument.
 
