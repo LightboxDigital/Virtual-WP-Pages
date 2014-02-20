@@ -7,6 +7,8 @@
 - [To do list](#to-do-list)
 - [Feedback](#feedback)
 
+==========
+
 This is a simple PHP class for WordPress that will allow you to add false/static/virtual pages to your site.
 
 This is especially useful for login pages, carts etc - which require no administration from a back end perspective but are aso required to permanently exist.
