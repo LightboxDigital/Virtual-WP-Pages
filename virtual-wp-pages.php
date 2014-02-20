@@ -1,4 +1,9 @@
 <?php
+/*
+    The concept is based upon a post at http://davejesch.com/wordpress/wordpress-tech/creating-virtual-pages-in-wordpress/
+
+    We have done our best to make this as quick and intuitive to use as possible.
+ */
 
 if (!class_exists('LWDVirtualPages'))
 {
