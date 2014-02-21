@@ -63,6 +63,7 @@ Providing we find time to continually improve this code, we have the following l
 - Allow for more of the posts options to be configurable
 - Look into compatibility for Yoast SEO and other SEO plugins to optimise these pages
 - Create a user interface and work it into a plugin, obviously leaving the ability for a 'lite' code only version.
+- Modify the body class output to reflect virtual-page.
 
 ##Feedback##
 
